@@ -1,0 +1,176 @@
+
+9932548-Z100@AI176893 MINGW64 ~
+$ cd ..
+
+9932548-Z100@AI176893 MINGW64 /c/Users
+$ ls
+ 0099862-z100/   9930084-Z100/  'All Users'@  'Default User'@   cpcadmin/
+ 1003324-z100/   9932548-Z100/   Default/      Public/          desktop.ini
+
+9932548-Z100@AI176893 MINGW64 /c/Users
+$ cd ..
+
+9932548-Z100@AI176893 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             ITAssetAgentSetup.log         Users/
+ 2023_AI_StdPC_Settings/    PerfLogs/                     WIN_UP/
+ ARSETUP/                   Pgm/                          Windows/
+ Attendance/               'Program Files'/               hiberfil.sys
+ BoxDrive/                 'Program Files (x86)'/         pagefile.sys
+ Config.Msi/                ProgramData/                  prisma/
+'Documents and Settings'@   Recovery/                     swapfile.sys
+ DriversBackup/            'System Volume Information'/   test/
+ DumpStack.log.tmp          Temp/                         workspace/
+
+9932548-Z100@AI176893 MINGW64 /c
+$ cd workspace/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace
+$ ls
+022岩門.png           20_鍵管理システム/  40_Git/   90_ANGULAR/  作業管理.xlsx
+10_AUTM作業フォルダ/  30_P21/             80_CODE/  _bk/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace
+$ cd 40_Git/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git
+$ ls
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git
+$ git clone https://github.com/ZLM1986/study2024001.git
+Cloning into 'study2024001'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git
+$ ls
+study2024001/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git
+$ cd study2024001/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ ls
+README.md
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ cd ..
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git
+$ ls
+study2024001/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git
+$ cd study2024001/
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ ls
+README.md
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ cd ^C
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ cd https://github.com/ZLM1986/study2024001.git
+bash: cd: https://github.com/ZLM1986/study2024001.git: No such file or directory
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git remote -v
+origin  https://github.com/ZLM1986/study2024001.git (fetch)
+origin  https://github.com/ZLM1986/study2024001.git (push)
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git add .
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git commit -m "first commit"
+[main bf34d24] first commit
+ Committer: Iwakado Kiyomasa／岩門　清正／AI <9932548-Z100@jp-global.aisingroup.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testFile1.txt
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git push main
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git push origin main
+fatal: User cancelled dialog.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com':
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Password for 'https://github.com':
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/ZLM1986/study2024001.git/'
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ ls
+README.md  testFile1.txt
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 345 bytes | 345.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ZLM1986/study2024001.git
+   ce39a6d..bf34d24  main -> main
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git add .
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git commit -m "test2"
+[main fc012b3] test2
+ Committer: Iwakado Kiyomasa／岩門　清正／AI <9932548-Z100@jp-global.aisingroup.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testFIle2.txt
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ZLM1986/study2024001.git
+   bf34d24..fc012b3  main -> main
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$ ^C
+
+9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
+$
