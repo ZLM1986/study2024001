@@ -174,3 +174,5 @@ $ ^C
 
 9932548-Z100@AI176893 MINGW64 /c/workspace/40_Git/study2024001 (main)
 $
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
